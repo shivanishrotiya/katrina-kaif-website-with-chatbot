@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="2.0">
+	
+<!-- katrina kaif chatbot-->
+	
+<category>
+	
+    <pattern>*</pattern>
+
+	    <template>
+	        choose one option!
+	     
+   <button>
+	         
+   <text>Katrina Kaif Biodata</text>
+	
+            <postback>1</postback>
+         
+   </button>
+           
+ <button>
+             
+   <text>katrina kaif Filmography</text>
+      
+          <postback>2</postback>
+        
+    </button>
+        
+    <button>
+         
+       <text>katrina kaif awards</text>
+     
+           <postback>3</postback>
+           
+ </button>
+        
+    <button>
+         
+
+       <text>katrina kaif Favorites</text>
+      
+          <postback>4</postback>
+         
+   </button>
+	 
+   </template>
+ 
+   </category>
+   
+ <category>
+   
+     <pattern>1</pattern>
+   
+     <template>select one option!
+     
+   <button>
+        
+    <text>name</text>
+      
+      <postback>5</postback>
+    
+    </button>
+     
+   <button>
+       
+     <text>Nick-name</text>
+   
+         <postback>6</postback>
+    
+    </button>
+         
+   <button>
+           
+     <text>Date Of Birth</text>
+    
+            <postback>7</postback>
+         
+   </button>
+          
+  <button>
+            
+    <text>Religion</text>
+    
+            <postback>8</postback>
+    
+        </button>
+           
+ <button>
+              
+  <text>Nation</text>
+       
+         <postback>9</postback>
+    
+        </button>
+           
+ <button>
+             
+   <text>Height / Weight</text>
+      
+          <postback>10</postback>
+       
+     </button>
+           
+ <button>
+            
+    <text>First Movie</text>
+       
+         <postback>11</postback>
+         
+   </button>
+          
+  <button>
+            
+    <text>Father</text>
+     
+           <postback>12</postback>
+    
+        </button>
+          
+  <button>
+               
+ <text>Mother</text>
+          
+      <postback>13</postback>
+  
+          </button>
+          
+  <button>
+               
+ <text>Brothers</text>
+        
+        <postback>14</postback>
+       
+     </button>
+           
+ <button>
+              
+  <text>Sisters</text>
+           
+     <postback>15</postback>
+      
+      </button>
+        
+    <button>
+          
+      <text>Marital Status</text>
+   
+             <postback>16</postback>
+   
+         </button>
+      
+  </template>
+        
+ 
+   </category>
+  
+  <category>
+    
+    <pattern>5</pattern>
+     
+   <template>Katrina Turquotte</template>
+   
+ </category>
+   
+ <category>
+     
+   <pattern>6</pattern>
+     
+   <template>Kat, Katy, Katz and Sambo</template>
+   
+ </category>
+   
+ <category>
+    
+    <pattern>7</pattern>
+    
+    <template>16 July 1983</template>
+   
+ </category>
+   
+ <category>
+      
+  <pattern>8</pattern>
+   
+     <template>	Islam</template>
+    
+    
+    </category>
+  
+  <category>
+       
+ <pattern>9</pattern>
+   
+     <template>British</template>
+ 
+   </category>
+   
+ <category>
+      
+  <pattern>10</pattern>
+    
+    <template>5' 8” / 56kg</template>
+   
+ </category>
+   
+ <category>
+     
+   <pattern>11</pattern>
+    
+    <template>Boom</template>
+   
+ </category>
+  
+  <category>
+    
+    <pattern>12</pattern>
+     
+   <template>	Mohammed Kaif</template>
+   
+ </category>
+   
+ <category>
+   
+     <pattern>13</pattern>
+   
+     <template>Suzanne Turquotte</template>
+  
+  </category>
+   
+ <category>
+    
+    <pattern>14</pattern>
+  
+      <template>Micheal Kaif (Elder)</template>
+  
+  </category>
+   
+ <category>
+     
+
+   <pattern>15</pattern>
+     
+   <template>Stephanie, Christine, Natasha (Elders)
+Milessa, Sonia, Isabel (Youngers)
+</template>
+ 
+   </category>
+    
+<category>
+    
+    <pattern>16</pattern>
+     
+   <template>Unmarried</template>
+   
+ </category>
+  
+  <category>
+      
+  <pattern>2</pattern>
+       
+ <template>
+            select one year!
+         
+   <button>
+               
+ <text>2003</text>
+       
+         <postback>17</postback>
+     
+       </button>
+         
+   <button>
+             
+   <text>2004</text>
+       
+         <postback>18</postback>
+    
+        </button>
+        
+    <button>
+              
+  <text>2005</text>
+      
+          <postback>19</postback>
+    
+        </button>
+        
+    <button>
+         
+       <text>2006</text>
+   
+             <postback>20</postback>
+      
+      </button>
+         
+   <button>
+            
+    <text>2007</text>
+     
+           <postback>21</postback>
+     
+       </button>
+          
+  <button>
+         
+       <text>2008</text>
+   
+             <postback>22</postback>
+   
+         </button>
+           
+ <button>
+             
+   <text>2009</text>
+        
+        <postback>23</postback>
+  
+          </button>
+          
+  <button>
+              
+  <text>2010</text>
+     
+           <postback>24</postback>
+  
+          </button>
+        
+    <button>
+             
+   <text>2011</text>
+         
+       <postback>25</postback>
+    
+        </button>
+          
+  <button>
+              
+  <text>2012</text>
+        
+        <postback>26</postback>
+ 
+           </button>
+          
+  <button>
+               
+ <text>2013</text>
+    
+            <postback>27</postback>
+      
+      </button>
+       
+     <button>
+          
+      <text>2014</text>
+     
+           <postback>28</postback>
+    
+        </button>
+         
+   <button>
+              
+  <text>2015</text>
+        
+        <postback>29</postback>
+        
+    </button>
+        
+    <button>
+           
+     <text>2016</text>
+     
+           <postback>30</postback>
+    
+        </button>
+         
+   <button>
+       
+         <text>2017</text>
+    
+            <postback>31</postback>
+     
+       </button>
+         
+   <button>
+           
+     <text>2018</text>
+      
+          <postback>32</postback>
+     
+       </button>
+         
+   <button>
+          
+      <text>2019</text>
+    
+            <postback>33</postback>
+     
+       </button>
+      
+      <button>
+             
+   <text>2020</text>
+         
+       <postback>34</postback>
+       
+     </button>
+     
+   </template>
+  
+  </category>
+ 
+   <category>
+   
+     <pattern>17</pattern>
+    
+    <template>Boom</template>
+  
+  </category>
+  
+  <category>
+    
+    <pattern>18</pattern>
+    
+    <template>Malliswari</template>
+ 
+   </category>
+   
+ <category>
+     
+   <pattern>19</pattern>
+      
+  <template>Sarkar, Maine Pyaar Kyun Kiya?,Allari Pidugu</template>
+ 
+   </category>
+  
+  <category>
+   
+     <pattern>20</pattern>
+    
+    <template>Humko Deewana Kar Gaye,Balram vs. Tharadas</template>
+  
+  </category>
+  
+  <category> 
+    
+    <pattern>21</pattern>
+     
+   <template>Namastey London,Apne,Partner,Welcome</template>
+ 
+   </category>
+  
+  <category>
+     
+   <pattern>22</pattern>
+   
+     <template>Race,Singh Is Kinng, Hello,Yuvvraaj</template>
+ 
+   </category>
+  
+  <category>
+    
+    <pattern>23</pattern>
+   
+     <template>New York,Blue	,Ajab Prem Ki Ghazab Kahani	,De Dana Dan</template>
+ 
+   </category>
+   
+ <category>
+      
+  <pattern>24</pattern>
+      
+  <template>Raajneeti	,Tees Maar Khan</template>
+ 
+   </category>
+  
+  <category>
+    
+    <pattern>25</pattern>
+    
+    <template>Zindagi Na Milegi Dobara,Bodyguard,Mere Brother Ki Dulhan</template>
+ 
+   </category>
+  
+  <category>
+    
+    <pattern>26</pattern>
+   
+     <template>Agneepath	,Ek Tha Tiger,Jab Tak Hai Jaan</template>
+ 
+   </category>
+   
+ <category>
+     
+   <pattern>27</pattern>
+      
+  <template>Main Krishna Hoon	,Bombay Talkies	,Dhoom 3</template>
+  
+         </category>
+       
+ <category>
+          
+  <pattern>28</pattern>
+     
+       <template>Bang Bang!</template>
+     
+   </category>
+
+ <category>
+    
+ <pattern>29</pattern>
+   
+  <template>Phantom</template>
+
+ </category>
+ 
+<category>
+   
+  <pattern>30</pattern>
+    
+ <template>Fitoor	,Baar Baar Dekho</template>
+ 
+</category>
+
+ <category>
+  
+   <pattern>31</pattern>
+  
+   <template>Jagga Jasoos	,Tiger Zinda Hai</template>
+ 
+</category>
+
+ <category>
+ 
+    <pattern>32</pattern>
+    
+ <template>Welcome to New York,Thugs of Hindostan	,Zero</template>
+
+ </category>
+ 
+<category>
+   
+  <pattern>33</pattern>
+  
+   <template>Bharat</template>
+
+ </category>
+ 
+<category>
+  
+   <pattern>34</pattern>
+  
+   <template>Angrezi Medium	,Sooryavanshi</template>
+ 
+</category>
+ 
+<category>
+       
+ <pattern>4</pattern>
+     
+   <template>select one option!
+       
+ <button>
+          
+  <text>Favorite Colour</text>
+      
+      <postback>35</postback>
+       
+ </button>
+       
+ <button>
+       
+     <text>Favorite Actor</text>
+    
+        <postback>36</postback>
+     
+   </button>
+         
+   <button>
+         
+       <text>Favorite Actress</text>
+   
+             <postback>37</postback>
+   
+         </button>
+         
+   <button>
+    
+            <text>Favorite Food</text>
+   
+             <postback>38</postback>
+    
+        </button>
+          
+  <button>
+              
+  <text>Hobbies</text>
+      
+          <postback>39</postback>
+     
+       </button>
+         
+   <button>
+            
+    <text>Favorite Song</text>
+     
+           <postback>40</postback>
+   
+         </button>
+           
+ <button>
+              
+  <text>Favorite Musician</text>
+    
+            <postback>41</postback>
+       
+     </button>
+           
+ <button>
+             
+   <text>Favorite Book</text>
+        
+        <postback>42</postback>
+      
+      </button>
+         
+   <button>
+            
+    <text>Favorite Sport</text>
+     
+           <postback>43</postback>
+      
+      </button>
+       
+     <button>
+         
+       <text>Favorite Destination</text>
+  
+              <postback>44</postback>
+   
+         </button>
+            
+      
+  </template>
+        
+
+    </category>
+   
+ <category>
+    
+    <pattern>35</pattern>
+    
+    <template>Pink, White, Mauve</template>
+ 
+   </category>
+    
+<category>
+       
+ <pattern>36</pattern>
+    
+    <template>Hrithik Roshan, Leonardo DiCrapio, Johnny Depp</template>
+ 
+   </category>
+   
+ <category>
+     
+   <pattern>37</pattern>
+   
+     <template>Madhuri Dixit, Kajol, Penelope Cruz</template>
+  
+  </category>
+    
+<category>
+       
+ <pattern>38</pattern>
+     
+   <template>Yorkshire Pudding, Kheer, Steamed Fish, Grilled Vegetables</template>
+ 
+       
+    </category>
+ 
+   <category>
+     
+   <pattern>39</pattern>
+ 
+       <template>Travelling, Playing Chess, Painting and Reading</template>
+  
+  </category>
+   
+ <category>
+      
+  <pattern>40</pattern>
+ 
+       <template>Moon by Poolside</template>
+   
+ </category>
+    
+<category>
+      
+  <pattern>41</pattern>
+  
+      <template>Radiohead, Muse, Coldplay</template>
+  
+  </category>
+   
+ <category>
+    
+    <pattern>42</pattern>
+     
+   <template>		All Books by Sidney Sheldon</template>
+ 
+   </category>
+  
+  <category>
+      
+  <pattern>43</pattern>
+  
+      <template>Cricket, Chess</template>
+ 
+   </category>
+   
+ <category>
+     
+   <pattern>44</pattern>
+   
+     <template>London, Italy, Dubai, Spain</template>
+   
+ </category>
+   
+ <category>
+    
+    <pattern>3</pattern>
+    
+    <template>select one option!
+    
+    <button>
+           
+ <text>BIG Star Entertainment Awards</text>
+     
+       <postback>45</postback>
+</button>
+       
+ <button>
+       
+     <text>Screen Awards</text>
+     
+       <postback>46</postback>
+      
+  </button>
+          
+  <button>
+           
+     <text>Stardust Awards</text>
+         
+       <postback>47</postback>
+         
+   </button>
+          
+  <button>
+          
+      <text>Zee Cine Awards</text>
+ 
+               <postback>48</postback>
+  
+          </button>
+            
+       
+     
+        </template>
+        
+ 
+   </category>
+    
+  
+  <category>
+      
+  <pattern>45</pattern>
+  
+      <template>
+<button>
+          
+  <text>	Jab Tak Hai Jaan(2012)</text>
+     
+       <postback>49</postback></button>
+        
+	
+        
+        </template>
+    
+</category>
+    
+   
+ <category>
+     
+   <pattern>49</pattern>
+     
+   <template>	Most Entertaining Actor ,
+Best On Screen Jodi	</template>
+ 
+   </category>
+   
+ <category>
+    
+    <pattern>46</pattern>
+  
+      <template>
+<button>
+         
+   <text>	Raajneeti , Tees Maar Khan(2011)</text>
+    
+        <postback>50</postback>
+</button>
+        	
+<button>
+      
+      <text>	Ek Tha Tiger,  Jab Tak Hai Jaan(2013)</text>
+   
+         <postback>51</postback></button>
+        
+   
+     </template>
+  
+  </category>
+    
+   
+ <category>
+     
+   <pattern>50</pattern>
+      
+  <template>Best Actress (Popular Choice)	</template>
+  
+  </category>
+        
+<category>
+       
+ <pattern>51</pattern>
+    
+    <template>Best Actress (Popular Choice)	</template>
+ 
+   </category>
+   
+ <category>
+      
+  <pattern>47</pattern>
+  
+      <template>
+<button>
+          
+  <text>Maine Pyaar Kyun Kiya?(2006)</text>
+    
+        <postback>52</postback>
+</button>
+        	
+<button>
+          
+  <text>	New York , Ajab Prem Ki Ghazab Kahani(2010)</text>
+   
+         <postback>53</postback>
+</button>
+       
+ <button>
+          
+  <text>Ajab Prem Ki Ghazab Kahani(2010)</text>
+   
+         <postback>54</postback>
+</button>
+        	
+<button>
+          
+  <text>	Tees Maar Khan(2011	)</text>
+     
+       <postback>55</postback>
+</button>
+        
+     
+   </template>
+   
+ </category>
+   
+ <category>
+     
+   <pattern>52</pattern>
+   
+     <template>Breakthrough Performance – Female
+	</template>
+ 
+   </category>
+   
+     <category>
+   
+     <pattern>53</pattern>
+  
+      <template>Best Actress - Popular	</template>
+  
+  </category>
+<category>
+      
+  <pattern>54</pattern>
+   
+     <template>Star of the Year – Female	</template>
+  
+  </category>
+     
+   <category>
+     
+   <pattern>55</pattern>
+  
+      <template>	Best Actress in a Comedy or Romance	</template>
+ 
+   </category>
+    
+ <category>
+    
+    <pattern>48</pattern>
+     
+   <template>
+<button>
+       
+     <text>		Zero(2019)</text>
+     
+       <postback>56</postback>
+</button>
+        	
+        
+     
+   </template>
+   
+ </category>
+    
+   
+ <category>
+      
+  <pattern>56</pattern>
+  
+      <template>	Best Actor in a Supporting Role – Female	</template>
+
+    </category>
+   
+ 
+   
+</aiml>
